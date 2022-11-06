@@ -1,0 +1,38 @@
+[
+  {
+    "city": "Dhaka",
+    "img": "https://images.unsplash.com/photo-1624395149011-470cf6f6ec02?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80"
+  },
+  {
+    "city": "Chittagong",
+    "img": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNoaXR0YWdvbmclMjBjaXR5fGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "city": "Sylhet",
+    "img": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHN5bGhldCUyMGNpdHl8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "city": "Rangpur",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Shapla_Chottor_%2817013833678%29.jpg"
+  },
+  {
+    "city": "Rajshahi",
+    "img": "https://static.wixstatic.com/media/9cdbfb_ad29984452ee4844802d35d99e785a76~mv2.jpg/v1/fill/w_640,h_498,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/9cdbfb_ad29984452ee4844802d35d99e785a76~mv2.jpg"
+  },
+  {
+    "city": "Khulna",
+    "img": "https://cdn.risingbd.com/media/imgAll/2021March/en/khulna-2106040545.jpg"
+  },
+  {
+    "city": "Barisal",
+    "img": "https://www.daily-sun.com/assets/news_images/2018/06/19/daily-sun-2018-06-19-18.jpg"
+  },
+  {
+    "city": "Noakhali",
+    "img": "https://rare-gallery.com/mocahbig/450747-landscape-far-view-clouds-sky-building-trees-cityscape.jpg"
+  },
+  {
+    "city": "Mymensingh",
+    "img": "https://gumlet.assettype.com/bdnews24-english%2Fimport%2Fbangla-media%2F2013%2F06%2F10%2Fhatirjhil.jpg"
+  }
+]
