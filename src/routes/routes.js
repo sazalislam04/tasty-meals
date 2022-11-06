@@ -1,8 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
+import Checkout from "../components/Checkout/Checkout";
 import Home from "../components/Home/Home";
 import FoodDetails from "../components/Meals/FoodDetails";
 import Meals from "../components/Meals/Meals";
 import Layout from "../Layout/Layout";
+import { foodLoaders } from "../Loaders/foodLoaders";
 
 export const router = createBrowserRouter([
   {
@@ -20,8 +22,11 @@ export const router = createBrowserRouter([
       {
         path: "/food/:foodId",
         element: <FoodDetails />,
-        loader: ({ params }) =>
-          fetch(`http://localhost:5000/t-meals/${params.foodId}`),
+      },
+      {
+        path: "/checkout",
+        element: <Checkout />,
+        loader: foodLoaders,
       },
     ],
   },

@@ -43,7 +43,7 @@ const Meals = () => {
           </span>
         </h1>
         <div className="absolute flex justify-center items-center transform -translate-y-1/2 text-left left-5 right-5 bottom-5 ">
-          <span class="loader"></span>
+          <span className="loader"></span>
         </div>
       </div>
 

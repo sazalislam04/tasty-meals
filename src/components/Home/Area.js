@@ -8,15 +8,7 @@ const Area = ({ name }) => {
       <div>
         <Link to={`/city/${city}`}>
           <figure className="overlay">
-            <img
-              className="h-72 w-96"
-              src={
-                img
-                  ? img
-                  : "https://cdn.britannica.com/97/189797-050-1FC0041B/Night-view-Dhaka-Bangladesh.jpg"
-              }
-              alt=""
-            />
+            <img className="h-72 w-96" src={img} alt="" />
             <span>{city}</span>
             <span className="visit">Visit Area</span>
           </figure>

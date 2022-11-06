@@ -20,7 +20,7 @@ const Slider = ({ item }) => {
         </p>
       </div>
       <div className="absolute flex justify-center items-center transform -translate-y-1/2 text-left left-5 right-5 bottom-5 ">
-        <span class="loader"></span>
+        <span className="loader"></span>
       </div>
       <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a
