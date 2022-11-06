@@ -179,3 +179,26 @@ figure:hover span {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
+
+.food-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.cart-btn {
+  padding: 10px 16px;
+  border-radius: 5px;
+  border: 1px solid orange;
+  transition: 0.4s ease;
+}
+.cart-btn:hover span {
+  display: none;
+  transition: 0.4s ease;
+}
+.cart-btn:hover p {
+  display: block;
+  padding: 2px 31px;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.4s ease;
+}
