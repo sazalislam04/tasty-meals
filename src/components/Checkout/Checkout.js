@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import toast from "react-hot-toast";
 import { FaArrowLeft } from "react-icons/fa";
 import { Link, useLoaderData } from "react-router-dom";
 
@@ -8,7 +9,6 @@ const Checkout = () => {
 
   let total = 0;
   for (let price in cart) {
-    const mealsId = cart[price]._id;
     total = price + cart[price].price;
   }
 
@@ -25,7 +25,6 @@ const Checkout = () => {
       email,
       phone,
       address,
-      cart,
     };
 
     fetch("http://localhost:5000/orders", {
@@ -37,10 +36,12 @@ const Checkout = () => {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
+        if (data.acknowledged) {
+          toast.success("Order placed success");
+        } else {
+          toast.error("Order doesn't exists");
+        }
       });
-
-    console.log(name, phone, email, address);
   };
 
   return (

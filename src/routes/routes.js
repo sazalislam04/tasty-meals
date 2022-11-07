@@ -3,6 +3,7 @@ import Checkout from "../components/Checkout/Checkout";
 import Home from "../components/Home/Home";
 import FoodDetails from "../components/Meals/FoodDetails";
 import Meals from "../components/Meals/Meals";
+import Orders from "../components/Orders/Orders";
 import Layout from "../Layout/Layout";
 import { foodLoaders } from "../Loaders/foodLoaders";
 
@@ -14,6 +15,10 @@ export const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/orders",
+        element: <Orders />,
       },
       {
         path: "/city/:city",

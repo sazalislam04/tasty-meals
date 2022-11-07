@@ -11,6 +11,11 @@ const Header = () => {
         </Link>
       </div>
       <div className="flex-none">
+        <ul>
+          <li className="mr-5 text-md">
+            <Link to="/orders">Orders</Link>
+          </li>
+        </ul>
         <div className="text-2xl mr-5 cursor-pointer text-orange-500">
           <FaShoppingBag />
         </div>
